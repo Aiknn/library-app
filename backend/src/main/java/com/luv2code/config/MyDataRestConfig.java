@@ -11,7 +11,7 @@ import com.luv2code.entity.Book;
 
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer{
-    private String theAllowedOrigins = "http://localhost:3000";
+    private String theAllowedOrigins = "https://bookish-fortnight-x7wqw5vxv7ph97vv-3000.app.github.dev";
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors){
